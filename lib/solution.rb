@@ -1,7 +1,6 @@
 
 require 'pry'
 
-
 def clock_angle(time)
     hours = time.split(":")[0].to_f
     minutes = time.split(":")[1].to_f
@@ -15,4 +14,4 @@ def clock_angle(time)
     angle
 end
 
-binding.pry
+
